@@ -1,0 +1,135 @@
+{
+    "dependencies": [
+        {
+            "packageVersion": {
+                "checksum": "f83c6bc73d1e43f2ed4a37b8654b33b27d13f6093e1022efb244eef3b49cd68d",
+                "dependencies": [
+                    {
+                        "id": "starling",
+                        "version": "2.x.x"
+                    }
+                ],
+                "package": {
+                    "description": "Cross-platform user interface components for creative frontend projects built with Starling",
+                    "docUrl": "https://feathersui/api-reference/",
+                    "identifier": "feathersui",
+                    "license": {
+                        "public": true,
+                        "type": "Simplified BSD",
+                        "url": "https://github.com/feathersui/feathersui-starling/blob/v4.1.1/LICENSE.md"
+                    },
+                    "name": "feathersui",
+                    "publishedAt": "2021-11-19T19:14:20.988Z",
+                    "purchaseUrl": "",
+                    "tags": [
+                        "components",
+                        "gui",
+                        "starling",
+                        "ui",
+                        "widgets"
+                    ],
+                    "type": "swc",
+                    "url": "https://feathersui.com/as3-starling/"
+                },
+                "parameters": [],
+                "platforms": [],
+                "publishedAt": "2021-11-19T00:00:00.000Z",
+                "sourceUrl": "https://github.com/feathersui/feathersui-starling/releases/download/v4.1.1/feathersui_4.1.1.airpackage",
+                "status": "release",
+                "version": "4.1.1"
+            },
+            "request": {
+                "packageIdentifier": "feathersui",
+                "source": null,
+                "version": "4.1.1"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "3b2e521831514bbc599a39ecd4e157352f6388fd75e8b74d13506e5e7da63a31",
+                "dependencies": [
+                    {
+                        "id": "starling",
+                        "version": "2.x.x"
+                    },
+                    {
+                        "id": "feathersui",
+                        "version": "4.1.x"
+                    }
+                ],
+                "package": {
+                    "description": "Metal Works mobile theme for Feathers UI (Starling version)",
+                    "docUrl": "https://feathersui/api-reference/",
+                    "identifier": "feathersui_MetalWorksMobileTheme",
+                    "license": {
+                        "public": true,
+                        "type": "Simplified BSD",
+                        "url": "https://github.com/feathersui/feathersui-starling/blob/v4.1.1/LICENSE.md"
+                    },
+                    "name": "Feathers UI Metal Works Mobile Theme",
+                    "publishedAt": "2021-11-19T19:15:52.059Z",
+                    "purchaseUrl": "",
+                    "tags": [
+                        "starling",
+                        "theme",
+                        "feathers"
+                    ],
+                    "type": "swc",
+                    "url": "https://feathersui.com/as3-starling/"
+                },
+                "parameters": [],
+                "platforms": [],
+                "publishedAt": "2021-11-19T00:00:00.000Z",
+                "sourceUrl": "https://github.com/feathersui/feathersui-starling/releases/download/v4.1.1/feathersui_MetalWorksMobileTheme_4.1.1.airpackage",
+                "status": "release",
+                "version": "4.1.1"
+            },
+            "request": {
+                "packageIdentifier": "feathersui_MetalWorksMobileTheme",
+                "source": null,
+                "version": "4.1.1"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "17543a806e8dd4074dd2726b17d09b3282870ad38b962b4d6ae8ea7483418d0d",
+                "dependencies": [],
+                "package": {
+                    "description": "The Cross Platform Game Engine",
+                    "docUrl": "https://doc.starling-framework.org",
+                    "identifier": "starling",
+                    "license": {
+                        "public": true,
+                        "type": "Simplified BSD",
+                        "url": "https://github.com/Gamua/Starling-Framework/blob/master/LICENSE.md"
+                    },
+                    "name": "starling",
+                    "publishedAt": "2021-07-27T13:22:30.211Z",
+                    "purchaseUrl": "",
+                    "tags": [
+                        "framework",
+                        "gpu",
+                        "game engine",
+                        "game development",
+                        "gamedev",
+                        "games"
+                    ],
+                    "type": "swc",
+                    "url": "https://gamua.com/starling"
+                },
+                "parameters": [],
+                "platforms": [],
+                "publishedAt": "2021-09-08T10:52:06.732Z",
+                "sourceUrl": "https://github.com/Gamua/Starling-Framework/releases/download/v2.7/starling_2.7.0.airpackage",
+                "status": "",
+                "version": "2.7.0"
+            },
+            "request": {
+                "packageIdentifier": "starling",
+                "source": null,
+                "version": "2.7.0"
+            }
+        }
+    ],
+    "uninstalledPackageIdentifiers": []
+}
