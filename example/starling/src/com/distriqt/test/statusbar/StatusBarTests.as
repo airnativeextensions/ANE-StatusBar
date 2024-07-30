@@ -18,6 +18,7 @@ package com.distriqt.test.statusbar
 	import com.distriqt.extension.statusbar.StatusBarItem;
 	import com.distriqt.extension.statusbar.menu.Menu;
 	import com.distriqt.extension.statusbar.menu.MenuItem;
+	import com.distriqt.extension.statusbar.menu.MenuItem;
 
 	import flash.desktop.NativeApplication;
 	import flash.display.Bitmap;
@@ -86,9 +87,13 @@ package com.distriqt.test.statusbar
 				var firstItem:MenuItem = new MenuItem( "test 1", "1" );
 				firstItem.addEventListener( Event.SELECT, item_selectedHandler );
 
+				var secondItem:MenuItem = new MenuItem( "test 2", "2" );
+				secondItem.addEventListener( Event.SELECT, item_selectedHandler );
+
 				var menu:Menu = new Menu();
+				menu.setTitle( "distriqt test" );
 				menu.addItem( firstItem );
-				menu.addItem( new MenuItem( "test 2", "2" ) );
+				menu.addItem( secondItem );
 				menu.addItem( new MenuItem( "f d d", "fd" ) );
 
 				statusBarItem = StatusBar.instance.createStatusBarItem();
@@ -116,6 +121,10 @@ package com.distriqt.test.statusbar
 		private function item_selectedHandler( event:Event ):void
 		{
 			log( "item_selectedHandler()" + event.currentTarget );
+			var item:MenuItem = MenuItem(event.currentTarget);
+			log( "item: " + item.title + " (" + item.identifier + ")" );
 		}
+
+
 	}
 }
